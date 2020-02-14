@@ -2,46 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MUSEUM</title>
+    <title>Task one current</title>
+
+    <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Libraries CSS Files -->
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <!--my stile -->
+
+    <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/my-slider.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+
 </head>
 <body>
-<!--top section-->
-<section class="top_footer">
+<!--Section top-->
+<section id="top" class="py-2">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 py-2">
-                <div class="text-top d-inline-block">
-                    МИНИСТЕРСТВО КУЛЬТУРЫ РЕСПУБЛИКИ УЗБЕКИСТАН
-                </div>
-
-                <div class="icons-top float-right d-inline-block">
+            <div class="text-top col-md-6 pl-0 pr-0">МИНИСТЕРСТВО КУЛЬТУРЫ
+                РЕСПУБЛИКИ УЗБЕКИСТАН
+            </div>
+            <div class="col-md-6 pl-0 pr-0">
+                <div class="icons-top float-right">
                     <a href="#"><i class="fa fa-fw mx-3 fa-facebook"></i></a>
                     <a href="#"><i class="fa fa-fw mx-3 fa-google-plus"></i></a>
                     <a href="#"><i class="fa fa-fw mx-3 fa-twitter"></i></a>
                     <a href="#"><i class="fa fa-fw mx-3 fa-instagram"></i></a>
                     <a href="#"><i class="fa fa-fw mx-3 fa-rss"></i></a>
-                    <a href="#"><img class="pl-4 border-left" src="images/icons/glasses.svg" alt="glasses"></a>
+                    <a href="#"><img class="px-4 border-left" src="images/icons/glasses.svg" alt="glasses"></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--top nav bar section-->
+<!--NAVIGATION BAR -->
 <section class="top_nav_bar">
     <div class="container">
         <nav>
             <div class="d-inline-block" id="logo pl-0"><a class="pl-0" href="#"><img src="images/icons/logo-copy.svg" alt="logo"></a></div>
-            <label for="drop" class="toggle"><i class="fa fa-bars fa-fw "></i></label>
+            <label for="drop" class="toggle"><i class="fa fa-lg fa-bars fa-fw "></i></label>
             <input type="checkbox" id="drop">
             <ul class="menu">
                 <li><a href="#">Новости</a></li>
@@ -86,10 +94,571 @@
         </nav>
     </div>
 </section>
+<!--section top light-->
+<section id="link_section-top-light">
+    <div class="container con-lf-media">
+        <div class="row icon-row">
+            <div class="col-md-12 me-text-c my-2 p-0">
+
+                <div class="catalog_link me-icons-link d-inline-block">
+                    <a href="#">Электронный каталог <span class="float-right" style="opacity: 1"><img
+                            src="images/icons/catalog%20(2).svg" alt="catalog"></span> </a>
+                </div>
+
+                <div class="catalog_service me-icons-link d-inline-block">
+                    <a href="#">Интерактивные услуги <span class="float-right" style="opacity: 1"><img
+                            style="width: 88%" src="images/icons/360-view-1.svg" alt="interact"></span> </a>
+                </div>
+
+                <div class="catalog_world me-icons-link d-inline-block">
+                    <a href="#">Наследие за рубежом<span class="float-right" style="opacity: 1"><img
+                            src="images/icons/interact%20(3).svg" alt="earth-globe"></span> </a>
+                </div>
+
+                <div class="search_icon me-icons-link d-inline-block">
+                    <a onclick="documentTrack('#search');" href="#search" class="search-form-tigger mr-0"
+                       data-toggle="search-form"><img src="images/icons/magnifier%20(3).svg" alt="search"></a>
+                    <div class="visible-xs navbar-form navbar-right">
+                    </div>
+                    <div class="search-form-wrapper">
+                        <form class="search-form" id="top-light-1" action="">
+                            <div class="input-group">
+                                <input type="text" name="search" class="search form-control"
+                                       placeholder="Напишите что вы хотите найти…">
+                                <span class="input-group-addon" id="basic-addon2"><button type="button"
+                                                                                          class="rounded border-0">Найти</button></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="view_icons me-icons-link d-inline-block">
+                    <a href="#"><img src="images/icons/earth-globe%20(1).svg" alt="view"></a>
+                </div>
+                <div class="language_icons me-icons-link d-inline-block">
+                    <a href="#"><img src="images/icons/language%20(3).svg" alt="language"></a>
+                </div>
 
 
+            </div>
+        </div>
+    </div>
+</section>
+<!--section  1-slider-->
+<div style="margin-top: 15px; margin-bottom: 50px" class='ism-slider-section container p-0'>
+    <div class="ism-slider" data-radio_type="thumbnail" id="my-slider">
+        <ol>
+            <li>
+                <img src="images/slides/flower-729514_1280.jpg">
+                <div class="ism-caption ism-caption-0">
+                    <h4 class="text-h4">ВЫСТАВКА</h4>
+                    <p class="text-p">
+                        Азия. Как все начиналось
+                    </p>
+                    <span class="text-p-span">Крупнейшая выставка 2019 года, посвященная истории <br>
+                        становления Средней Азии, на великий путь</span>
+                    <button class="btn ism-button-slider d-block">Узнать больше</button>
+                </div>
+            </li>
+            <li>
+                <img src="images/slides/beautiful-701678_1280.jpg">
+                <div class="ism-caption ism-caption-0">
+                    <h4 class="text-h4">ВЫСТАВКА</h4>
+                    <p class="text-p">
+                        Азия. Как все начиналось
+                    </p>
+                    <span class="text-p-span">Крупнейшая выставка 2019 года, посвященная истории <br>
+                        становления Средней Азии, на великий путь</span>
+                    <button class="btn ism-button-slider d-block">Узнать больше</button>
+                </div>
+            </li>
+            <li>
+                <img src="images/slides/summer-192179_1280.jpg">
+                <div class="ism-caption ism-caption-0">
+                    <h4 class="text-h4">ВЫСТАВКА</h4>
+                    <p class="text-p">
+                        Азия. Как все начиналось
+                    </p>
+                    <span class="text-p-span">Крупнейшая выставка 2019 года, посвященная истории <br>
+                        становления Средней Азии, на великий путь</span>
+                    <button class="btn ism-button-slider d-block">Узнать больше</button>
+                </div>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<!--section NEWS-->
+<section id="news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <a href="#" class="text-header mt-2">НОВОСТИ</a>
+                <a href="#" class="text-view  float-right">ПОСМОТРЕТЬ ВСЕ</a>
+                <hr class="line m-0">
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center p-0">
+                    <img class="article-main-img img-fluid" src="images/images/3.jpg" alt="man's img">
+                    <div class="img-text">
+                        <h6>ИСКУССТВО</h6>
+                        <p>Можно ли называть граффити <br> современным искусством?</p>
+                        <span class="img-main-data"><i class="fa fa-clock-o fa-fw"></i>12 АВГУСТ 2019</span>
+                    </div>
+                    <div class="img-text-magic">
+                        <h6>ИСКУССТВО</h6>
+                        <p>Можно ли называть граффити <br> современным искусством?</p>
+                        <span class="img-main-data"><i class="fa fa-clock-o fa-fw"></i>12 АВГУСТ 2019</span>
+                    </div>
+
+                </div>
+
+                <div class="col-md article-content">
+
+                    <div class="row bg-white rounded">
+                        <div class="col-md-3 col-sm-4 p-0">
+                            <img style="border-top-left-radius: 4px; border-bottom-left-radius: 4px" src="images/images/1.jpg" class="img-fluid" alt="1 - img">
+                        </div>
+                        <div class="col-md-9 col-sm-8">
+                            <p class="article-info">В Ташкенте прошла выставка Китайской живописи</p>
+                            <div class="region_date">
+                                АЗИЯ <span class="float-right"><i
+                                    class="fa fa-clock-o fa-fw"></i>11 АВГУСТ 2019</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-4 bg-white  rounded">
+                        <div class="col-md-3 col-sm-4 p-0">
+                            <img style="border-top-left-radius: 4px; border-bottom-left-radius: 4px" src="images/images/2.jpg" class="img-fluid" alt="1 - img">
+                        </div>
+                        <div class="col-md-9 col-sm-8">
+                            <p class="article-info">В Ташкенте прошла выставка Китайской живописи</p>
+                            <div class="region_date">
+                                АЗИЯ <span class="float-right"><i
+                                    class="fa fa-clock-o fa-fw"></i>11 АВГУСТ 2019</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row bg-white rounded">
+                        <div class="col-md-3 col-sm-4 p-0">
+                            <img style="border-top-left-radius: 4px; border-bottom-left-radius: 4px" src="images/images/1.jpg" class="img-fluid" alt="1 - img">
+                        </div>
+                        <div class="col-md-9 col-sm-8">
+                            <p class="article-info">В Ташкенте прошла выставка Китайской живописи</p>
+                            <div class="region_date">
+                                АЗИЯ <span class="float-right"><i
+                                    class="fa fa-clock-o fa-fw"></i>11 АВГУСТ 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--2-section slider-->
+<section class="slider">
+    <div class="container" style="margin-top: 50px">
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <a href="#" class="text-header mt-2">МЕДИА</a>
+                <div class="rows">
+                    <span class="arrowleft" id="prev"><i class="fa fa-arrow-circle-left"></i></span>
+                    <span class="arrowright" id="next"><i class="fa fa-arrow-circle-right"></i></span>
+                </div>
+                <hr class="line m-0">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row media-slider">
+
+            <div class="col-md-3 content-media">
+                <h4>Содержание</h4>
+                <p>Буклеты
+                    <sapn class="media-data">8439</sapn>
+                </p>
+                <p>Каталоги
+                    <sapn class="media-data">3494</sapn>
+                </p>
+                <p>Книги
+                    <sapn class="media-data">10939</sapn>
+                </p>
+                <p>Сборники
+                    <sapn class="media-data">955</sapn>
+                </p>
+                <p>Газеты и журналы
+                    <sapn class="media-data">1400</sapn>
+                </p>
+                <button class="btn btn-info">ПОСМОТРЕТЬ ВСЕ</button>
+            </div>
+
+            <div class="slideMedia d-inline-block">
+                <div class="thumbnailgallery">
+                    <div class="showrooms clearfix">
+                        <a href="#" class="logo"><img style="width: 268px" src="images/content/media-slider.jpg">
+                            <p>Welcome to Uzbekistan <br> <span>Экономический вестник Узбекистана</span></p>
+                        </a>
+                        <a href="#" class="logo"><img style="width: 268px" src="images/content/media-slider2.jpg">
+                            <p>
+                                Огонек<br> <span>Специальное издание</span></p>
+                        </a>
+                        <a href="#" class="logo"><img style="width: 268px" src="images/content/media-slider3.jpg">
+                            <p>
+                                Огонек <br> <span>Рассказ о воскресшем Фархаде</span></p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--Section museum-->
+<section id="museum">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <a href="#" class="text-header mt-2">НОВОСТИ</a>
+                <a href="#" class="text-view  float-right">ПОСМОТРЕТЬ ВСЕ</a>
+                <hr class="line m-0">
+            </div>
+        </div>
+    </div>
+    <div class="container media-7">
+        <div class="row" style="margin-top: 30px">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 media7-cards pl-0">
+                        <div class="red-card ">
+                            <p>
+                                ДОМ МУЗЕЙ
+                            </p>
+                            <h6>
+                                Дом музей Урала Тансыкбаева
+                            </h6>
+                            <p>Количество экспонатов <span>745</span></p>
+                            <button class="btn btn-light">ПОДРОБНО О МУЗЕЕ</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 media7-cards pl-0">
+                        <div class="green-card ">
+                            <p>
+                                ВЫСТАВОЧНЫЙ ЗАЛ
+                            </p>
+                            <h6>
+                                Галерея изобразительного искусства
+                            </h6>
+                            <p>Количество экспонатов <span>745</span></p>
+                            <button class="btn btn-light">ПОДРОБНО О МУЗЕЕ</button>
+                            <a href="#"><span><img src="images/icons/360-view-1-copy.svg" alt="360"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 media7-cards pl-0" style="margin-top: 15px">
+                        <div class="blue-card">
+                            <p>
+                                ГОСУДАРСТВЕННЫЙ МУЗЕЙ
+                            </p>
+                            <h6>Музей истории Узбекистана</h6>
+                            <p>Количество экспонатов <span>745</span></p>
+                            <button class="btn btn-light">ПОДРОБНО О МУЗЕЕ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 media7-cards pl-0 pr-0">
+                <div class="black-card">
+                    <p>
+                        ГОСУДАРСТВЕННЫЙ МУЗЕЙ
+                    </p>
+                    <h6>
+                        Музей истории Тимуридов
+                    </h6>
+                    <p>Количество экспонатов <span>745</span></p>
+
+                    <button class="btn btn-light">ПОДРОБНО О МУЗЕЕ</button>
+                    <a href="#"><span><img src="images/icons/360-view-1-copy.svg" alt="360"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--section interest-->
+<section id="interesting">
+    <div class="container">
+        <div class="row" style="margin-bottom: 29.5px">
+            <div class="col-md-12 p-0">
+                <a href="#" class="text-header mt-2">ВАМ БУДЕТ ИНТЕРЕСНО</a>
+                <hr class="line m-0">
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-4 media-cmd-4">
+                <div class="izdaniya">
+                    <p>ИЗДАНИЯ</p>
+                    <h6>
+                        Читайте интересущие вас
+                        научные статьи
+                    </h6>
+                    <a class="float-right" href="#"><img src="images/icons/brand.svg" alt="brand"></a>
+                </div>
+            </div>
+
+            <div class="col-md-4 media-cmd-4">
+                <div class="exspozitsya">
+                    <p>3D ЭКСПОЗИЦИЯ</p>
+                    <h6>
+                        Просмотр экспонатов в 3D не выходя из дома
+                    </h6>
+                    <a class="float-right" href="#"><img src="images/icons/360-view-1-copy.svg" alt="view"></a>
+                </div>
+            </div>
+
+            <div class="col-md-4 media-cmd-4">
+                <div class="exponat">
+                    <p>ЭКСПОНАТ</p>
+                    <h6>
+                        Электронный каталог всех музейных экспонатов
+                    </h6>
+                    <a class="float-right" href="#"><img src="images/icons/catalog.svg" alt="catalog"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 p-0">
+            <a href="#" class="text-header mt-2">ИНТЕРАКТИВНЫЕ УСЛУГИ</a>
+            <a href="#" class="text-view  float-right">ПОСМОТРЕТЬ ВСЕ</a>
+            <hr class="line m-0">
+        </div>
+    </div>
+</div>
+<section id="services">
+    <div class="container">
+        <div class="row" style="margin-bottom: 30px">
+            <div class="col-md-6 media-cmf6 pl-0">
+                <div class="service-card">
+                    <h2>
+                        Заказ фотокопий музейных предметов
+                    </h2>
+                    <p>
+                        Закажите себе фотокопии музейных предметов <br>
+                        <span>(Необходим перечень документов)</span>
+                    </p>
+                    <button class="btn">УЗНАТЬ БОЛЬШЕ</button>
+                    <span class="float-right"><a href="#"><img src="images/icons/virtual-reality.svg"
+                                                               alt="icon"></a></span>
+                </div>
+            </div>
+            <div class="col-md-6 media-cmf6  pr-0">
+                <div class="service-card">
+                    <h2>
+                        Заказ экскурсий
+                    </h2>
+                    <p>
+                        Нужна экскурсия (для школы, работы, туристов)
+                        Воспользуйтесь удобной и быстрой услугой
+                    </p>
+                    <button class="btn">УЗНАТЬ БОЛЬШЕ</button>
+                    <span class="float-right"><a href="#"><img src="images/icons/panorama.svg" alt="icon"></a></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 media-cmf6 pl-0">
+                <div class="service-card">
+                    <h2>
+                        Заказ выставки
+                    </h2>
+                    <p>
+                        Резервируйте помещения, для проведения выставок<br>
+                        <span>(Необходим перечень документов)</span>
+                    </p>
+                    <button class="btn">УЗНАТЬ БОЛЬШЕ</button>
+                    <span class="float-right"><a href="#"><img src="images/icons/360-degrees.svg" alt="icon"></a></span>
+                </div>
+            </div>
+            <div class="col-md-6 media-cmf6 pr-0">
+                <div class="service-card">
+                    <h2>
+                        Справка о включении в каталог
+                    </h2>
+                    <p>
+                        Справка о включении предмета материальной культуры в музейный каталог
+                    </p>
+                    <button class="btn">УЗНАТЬ БОЛЬШЕ</button>
+                    <span class="float-right"><a href="#"><img src="images/icons/newspaper.svg" alt="icon"></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="history">
+    <div class="container p-0">
+        <div class="row">
+            <div class="col-md-6 ">
+                <h3>
+                    История развития музеев Узбекистана
+                </h3>
+                <p>
+                    Узнайте больше о музеях Узбекистана и о нашем портале. <br>
+                    <span>
+                    Также вы можете ознакомиться с Законами, НПА о музеях и картой нашего портала
+                </span>
+                </p>
+                <button class="btn btn-info">ПОДРОБНО</button>
+            </div>
+            <div class="col-md-6 media-history">
+                <a href="#"><img class="img-one img-border" src="images/images/museum-of-aplied-arts.jpg" alt="museum"></a>
+                <a href="#"><img class="img-rwo img-border" src="images/images/z-index-img.jpg" alt="z-index-img"></a>
+                <a href="#"><img class="img-three img-border" src="images/images/z-index-img2.jpg"
+                                 alt="z-index-img2"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="top_nav_bar mt-5">
+    <div class="container">
+        <nav>
+            <div class="d-inline-block" id="logo-f pl-0"><a class="pl-0" href="#"><img src="images/icons/logo-copy.svg" alt="logo"></a></div>
+            <label for="drop" class="toggle"><i class="fa fa-lg fa-bars fa-fw "></i></label>
+            <input type="checkbox" id="drop-f">
+            <ul class="menu">
+                <li><a href="#">Новости</a></li>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle">Музеи +</label>
+                    <a href="#">Музеи</a>
+                    <input type="checkbox" id="drop-1-f">
+                    <ul>
+                        <li><a href="#">Музеи 1</a></li>
+                        <li><a href="#">Музеи 2</a></li>
+                        <li><a href="#">Музеи 3</a></li>
+                    </ul>
+                </li>
+                <li>
+
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-2" class="toggle">Фотогалерея +</label>
+                    <a href="#">Фотогалерея</a>
+                    <input type="checkbox" id="drop-2-f">
+                    <ul>
+                        <li><a href="#">Фотогалерея 1</a></li>
+                        <li><a href="#">Фотогалерея 2</a></li>
+                        <li>
+
+                            <!-- Second Tier Drop Down -->
+                            <label for="drop-3" class="toggle">something +</label>
+                            <a href="#">something</a>
+                            <input type="checkbox" id="drop-3-f">
+                            <ul>
+                                <li><a href="#">something</a></li>
+                                <li><a href="#">something</a></li>
+                                <li><a href="#">something</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Медиа</a></li>
+                <li><a href="#">О портале</a></li>
+                <li><a href="#">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+<section id="link_section">
+    <div class="container pt-5">
+        <div class="row icon-row">
+            <div class="col-md-12 p-0">
+                <div class="catalog_link d-inline-block">
+                    <a href="#">Электронный каталог <span class="float-right" style="opacity: 0.2"><img
+                            src="images/icons/catalog.svg" alt="catalog"></span> </a>
+                </div>
+                <div class="catalog_service d-inline-block">
+                    <a href="#">Интерактивные услуги <span class="float-right" style="opacity: 0.8"><img
+                            src="images/icons/interact.svg" alt="interact"></span> </a>
+                </div>
+                <div class="catalog_world d-inline-block">
+                    <a href="#">Наследие за рубежом<span class="float-right" style="opacity: 0.8"><img
+                            src="images/icons/earth-globe.svg" alt="earth-globe"></span> </a>
+                </div>
+                <div class="search_icon d-inline-block">
+                    <a onclick="documentTrack('#search');" href="#search" class="search-form-tigger mr-0"
+                       data-toggle="search-form"><img src="images/icons/search.svg" alt="search"></a>
+                    <div class="visible-xs navbar-form navbar-right">
+                    </div>
+                    <div class="search-form-wrapper">
+                        <form class="search-form" id="top-light" action="">
+                            <div class="input-group">
+                                <input type="text" name="search" class="search form-control"
+                                       placeholder="Напишите что вы хотите найти…">
+                                <span class="input-group-addon" id="basic-addon1"><button type="button"
+                                                                                          class="rounded border-0">Найти</button></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="view_icons d-inline-block">
+                    <a href="#"><img src="images/icons/360-view-1-copy.svg" alt="view" style="opacity: 0.8"></a>
+                </div>
+                <div class="language_icons d-inline-block">
+                    <a href="#"><img src="images/icons/language.svg" alt="language" style="opacity: 0.8"></a>
+                </div>
 
 
+            </div>
+        </div>
+
+        <div class="row" style="padding-bottom: 42px">
+            <div class="col-md-12 p-0 contact_link_footer">
+                <a class="mr-5" href="tel:+9989712000002"><span><img class="mr-3"
+                                                                     src="images/icons/telephone-auricular-with-cable.svg"
+                                                                     alt="phone">+ (998) 71 200 00 02</span></a>
+                <a class="mr-5" href="mailto:info@muzei.uz"><span><img class="mr-3" src="images/icons/email.svg"
+                                                                       alt="phone">info@muzei.uz</span></a>
+                <a class="mr-5" href="#"><span><img class="mr-3" src="images/icons/placeholder.svg" alt="location">г.Ташкент, Мирабадский р-н, ул. Тараса Шевченко 24</span></a>
+                <a href="#"><img class="float-right" src="images/icons/fake.JPG" alt="fake logo"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="top-footer" class="py-2">
+    <div class="container">
+        <div class="row">
+            <div class="text-top col-md-6 pl-0 pr-0">МИНИСТЕРСТВО КУЛЬТУРЫ
+                РЕСПУБЛИКИ УЗБЕКИСТАН
+            </div>
+            <div class="col-md-6 pl-0 pr-0">
+                <div class="icons-top float-right">
+                    <a href="#"><i class="fa fa-fw mx-3 fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-fw mx-3 fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-fw mx-3 fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-fw mx-3 fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-fw mx-3 fa-rss"></i></a>
+                    <a href="#"><img class="px-4 border-left" src="images/icons/glasses.svg" alt="glasses"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/jquery/jquery-migrate.min.js"></script>
@@ -101,8 +670,10 @@
 <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 <script src="lib/lightbox/js/lightbox.min.js"></script>
 <script src="lib/typed/typed.min.js"></script>
-<!--<script src="js/ism-2.2.min.js"></script>-->
+<script src="js/ism-2.2.min.js"></script>
+
+<!-- Template Main Javascript File -->
 <script src="js/main.js"></script>
-<!--<script src="js/slick.min.js"></script>-->
+<script src="js/slick.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,355 @@
+@media (max-width: 1200px) {
+    #top .container{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto
+    }
+    /*link section top light*/
+    .me-icons-link{
+        padding: 10px;
+    }
+    .region_date{
+        padding: 0;
+    }
+    .content-media button{
+        font-size: 12px;
+        margin: 0 auto;
+        font-weight: 600;
+        padding: 10px 17px;
+    }
+    .thumbnailgallery{
+        width: 705px;
+    }
+    .logo img{
+        width: 220px!important;
+    }
+    .logo p{
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .logo p span{
+        font-size: 11px;
+    }
+    .red-card p{
+
+    }
+    .green-card h6{
+        font-size: 19px;
+    }
+    .red-card button{
+        font-size: 10px;
+        padding: 12px 15px;
+    }
+    .green-card button{
+        font-size: 10px;
+        padding: 12px 15px;
+        margin-top: 22px;
+    }
+    .black-card h6{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .black-card button{
+        font-size: 10px;
+        padding: 12px 15px;
+    }
+    .black-card h6{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .blue-card button{
+        font-size: 10px;
+        padding: 12px 15px;
+        margin-bottom: 10px;
+    }
+    /*section interesting*/
+    .izdaniya p{
+        padding-top: 50px;
+        font-size: 10px;
+    }.izdaniya h6 {
+         font-size: 16px;
+     }
+
+    .izdaniya a {
+        margin-bottom: 50px;
+    }
+    .exspozitsya p {
+        padding-top: 50px;
+        font-size: 12px;
+    }
+
+    .exspozitsya h6 {
+        font-size: 16px;
+    }
+    .exspozitsya a {
+        margin-bottom: 50px;
+    }
+
+
+    .exponat p {
+        font-size: 12px;
+        padding-top: 50px;
+    }
+
+    .exponat h6 {
+        font-size: 16px;
+    }
+
+    .exponat a {
+        margin-bottom: 50px;
+    }
+
+    #interesting {
+        margin-bottom: 50px;
+    }
+    .service-card h2{
+        font-size: 20px;
+    }
+    .service-card p{
+        font-size: 12px;
+    }
+    .service-card button{
+        font-size: 10px;
+        padding: 15px 30px;
+    }
+    .media-history{
+        display: none;
+    }
+    #history .col-md-6{
+        text-align: center;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+}
+@media (max-width: 992px) {
+    .icons-top{
+        text-align: center!important;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        float: none!important;
+        margin-top: 5px;
+    }
+    #top .col-md-6{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .text-top{
+        text-align: center!important;
+    }
+    /*navigation bar*/
+
+    .media-nav li a{
+        font-size: 10px!important;
+    }
+    nav .container{
+        margin: 0 30px;
+    }
+    /*link section top light*/
+    #link_section-top-light .container{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .me-icons-link{
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .me-icons-link span{
+        display: none;
+    }
+    .me-icons-link a{
+        margin: 0;
+    }
+    .me-text-c{
+        text-align: center;
+    }
+    .icon-row{
+        padding: 0!important;
+    }
+    ::placeholder{
+        font-size: 12px;
+        padding: 15px;
+    }
+    input{
+        height: 30px!important;
+        font-size: 14px!important;
+    }
+    /*1-SLIDER*/
+    .ism-slider-section{
+        margin-bottom: 20px!important;
+    }
+    .ism-button-slider{
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 10%;
+    }
+    .text-p{
+        font-size: 24px;
+    }
+    .text-p-span{
+        font-size: 16px;
+    }
+    .img-text{
+        position: relative!important;
+        bottom: 100px!important;
+        left: 30px!important;
+    }
+    .img-text h6{
+        font-size: 14px;
+    }
+    .img-text p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .img-text span{
+        font-size: 10px;
+    }
+    .article-info{
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .region_date{
+        font-size: 12px;
+    }
+    .thumbnailgallery{
+        width: 520px;
+    }
+    .logo img{
+        width: 170px!important;
+    }
+    .logo p{
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    .logo p span{
+        font-size: 8px;
+    }
+    .content-media{
+        padding: 15px;
+    }
+    .content-media h4{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .content-media p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .media-data{
+        font-size: 12px!important;
+    }
+    .content-media button{
+        padding: 10px 10px;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .red-card p,
+    .green-card p{
+        font-size: 12px;
+    }
+    .red-card h6{
+        font-size: 18px;
+    }
+    .green-card h6{
+        font-size: 18px;
+    }
+    .red-card button{
+        font-size: 8px;
+        padding: 12px 15px;
+    }
+    .green-card button{
+        font-size: 8px;
+        padding: 12px 15px;
+        margin-top: 12px;
+    }
+    .green-card img,
+    .black-card img{
+        display: none !important;
+    }
+}
+@media (max-width: 768px) {
+    /*1-SLIDER*/
+    .ism-button-slider{
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 5%;
+    }
+    .text-p{
+        font-size: 24px;
+    }
+    .text-p-span{
+        font-size: 16px;
+    }
+    .img-text{
+        position: relative!important;
+        bottom: 200px!important;
+        left: 130px!important;
+        text-align: left;
+    }
+    .img-text{
+        display: none;
+    }
+    .img-text-magic{
+        display: block;
+        position: relative;
+        bottom: 200px;
+        left: 130px;
+        text-align: left;
+    }
+    .article-content{
+        margin-left: 0;
+    }
+    .region_date{
+        margin-top: 30px;
+    }
+    .content-media{
+        padding: 20px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .content-media h4{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .content-media p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .media-data{
+        font-size: 14px!important;
+    }
+    .content-media button{
+        display: block;
+        padding: 10px 10px;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .rows {
+        display: none;
+    }
+    .slideMedia{
+        margin-left: 20px;
+    }
+    #museum .media-7{
+        padding-right: 0!important;
+    }
+    .media7-cards{
+        margin-bottom: 15px!important;
+        padding-right: 15px!important;
+    }
+    /*section interest*/
+    .media-cmd-4{
+        margin-bottom: 15px;
+    }
+    /*service card section*/
+    .media-cmf6{
+        padding: 0;
+        margin-bottom: 15px;
+    }
+}
